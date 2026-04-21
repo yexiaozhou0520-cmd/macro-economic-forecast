@@ -9,8 +9,22 @@
 模型使用月度宏观经济数据，通过随机森林回归完成预测，包含数据预处理、时序特征工程、模型训练验证、自动化图表输出全流程。
 
 ## 2. 项目结构
-macro-economic-forecast/├─ data/ # 原始数据与处理后数据│ ├─ raw/ # 模拟原始宏观数据│ └─ processed/ # 清洗后用于建模的数据├─ models/ # 训练好的预测模型├─ results/ # 输出结果│ └─ figures/ # 趋势图、预测图、特征重要性图├─ src/ # 核心代码│ ├─ main.py # 主程序（一键运行）│ ├─ data_process.py # 数据清洗与预处理│ ├─ model.py # 模型训练与评估│ └─ visualize.py # 可视化绘图├─ docs/ # 项目文档└─ README.md # 项目说明
-plaintext
+```text
+macro-economic-forecast/
+├── data/                 # 原始数据与处理后数据
+│   ├── raw/              # 模拟原始宏观数据
+│   └── processed/        # 清洗后用于建模的数据
+├── models/               # 训练好的预测模型
+├── results/              # 输出结果
+│   └── figures/          # 趋势图、预测图、特征重要性图
+├── src/                  # 核心代码
+│   ├── main.py           # 主程序（一键运行）
+│   ├── data_process.py   # 数据清洗与预处理
+│   ├── model.py          # 模型训练与评估
+│   └── visualize.py      # 可视化绘图
+├── docs/                 # 项目文档
+└── README.md             # 项目说明
+```
 
 ## 3. 核心功能
 - 自动生成5年月度模拟宏观经济数据
@@ -37,7 +51,7 @@ plaintext
     ```bash
     python src/main.py
     ```    
-4.  图表、模型、报告将自动生成
+   图表、模型、报告将自动生成
 
 ## 6. 输出结果 
 - 清洗后的宏观经济数据集
