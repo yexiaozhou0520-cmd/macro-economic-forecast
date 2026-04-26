@@ -24,7 +24,7 @@ def plot_trend(data_path="data/processed/cleaned_data.csv"):
     df = pd.read_csv(data_path)
     df["date"] = pd.to_datetime(df["date"])
     
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(13, 7))
     plt.plot(df["date"], df["cpi"], label="CPI", color="#1f77b4", linewidth=2)
     plt.plot(df["date"], df["gdp"], label="GDP增速", color="#ff7f0e", linewidth=2)
     plt.title("宏观经济指标时间趋势", fontsize=14)
