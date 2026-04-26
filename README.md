@@ -54,6 +54,14 @@ macro-economic-forecast/
    图表、模型、报告将自动生成
 
 ## 6. 输出结果 
+### 1. 宏观经济指标趋势图
+![经济趋势图](./macro_trend.png)
+
+### 2. 真实值 vs 预测值对比
+![预测对比图](./forecast_compare.png)
+
+### 3. 特征重要性分析
+![特征重要性](./feature_importance.png)
 - 清洗后的宏观经济数据集
 - 训练完成的预测模型文件
 - 宏观经济趋势图
